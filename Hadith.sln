@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hadith.Crawler", "Hadith.Crawler\Hadith.Crawler.csproj", "{4FE616C1-F1B0-49AD-9C69-EFEF28156966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hadith.Parser", "Hadith.Parser\Hadith.Parser.csproj", "{E0E16958-6247-4BD3-8BDD-DAF9B61265AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hadith.DAL", "Hadith.DAL\Hadith.DAL.csproj", "{CCBD2C83-DFB2-4511-8DA5-BDED94F8E40C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hadith.BLL", "Hadith.BLL\Hadith.BLL.csproj", "{22AF9170-6B79-4FD2-A2E1-0CC60326DFAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hadith.WPF", "Hadith.WPF\Hadith.WPF.csproj", "{84AA4306-3F9B-42E8-9471-C901E5245AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToXamlConvert", "HtmlToXamlConvert\HtmlToXamlConvert.csproj", "{F991A7FA-DFBC-48E1-A16F-8AF85E08D625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FE616C1-F1B0-49AD-9C69-EFEF28156966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE616C1-F1B0-49AD-9C69-EFEF28156966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE616C1-F1B0-49AD-9C69-EFEF28156966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE616C1-F1B0-49AD-9C69-EFEF28156966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E16958-6247-4BD3-8BDD-DAF9B61265AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E16958-6247-4BD3-8BDD-DAF9B61265AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E16958-6247-4BD3-8BDD-DAF9B61265AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E16958-6247-4BD3-8BDD-DAF9B61265AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBD2C83-DFB2-4511-8DA5-BDED94F8E40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBD2C83-DFB2-4511-8DA5-BDED94F8E40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBD2C83-DFB2-4511-8DA5-BDED94F8E40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBD2C83-DFB2-4511-8DA5-BDED94F8E40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22AF9170-6B79-4FD2-A2E1-0CC60326DFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AF9170-6B79-4FD2-A2E1-0CC60326DFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AF9170-6B79-4FD2-A2E1-0CC60326DFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AF9170-6B79-4FD2-A2E1-0CC60326DFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AA4306-3F9B-42E8-9471-C901E5245AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AA4306-3F9B-42E8-9471-C901E5245AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AA4306-3F9B-42E8-9471-C901E5245AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AA4306-3F9B-42E8-9471-C901E5245AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F991A7FA-DFBC-48E1-A16F-8AF85E08D625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F991A7FA-DFBC-48E1-A16F-8AF85E08D625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F991A7FA-DFBC-48E1-A16F-8AF85E08D625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F991A7FA-DFBC-48E1-A16F-8AF85E08D625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

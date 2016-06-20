@@ -1,0 +1,17 @@
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\Hadith.Crawler.exe.config
+C:\DEV\Experiment\Hadith\Hadith.Crawler\obj\Debug\Hadith.Crawler.csprojResolveAssemblyReference.cache
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\Hadith.Crawler.exe
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\Hadith.Crawler.pdb
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\Abot.dll
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\AutoMapper.dll
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\CsQuery.dll
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\HtmlAgilityPack.dll
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\log4net.dll
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\Robots.dll
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\AutoMapper.xml
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\CsQuery.xml
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\log4net.xml
+C:\DEV\Experiment\Hadith\Hadith.Crawler\obj\Debug\Hadith.Crawler.exe
+C:\DEV\Experiment\Hadith\Hadith.Crawler\obj\Debug\Hadith.Crawler.pdb
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\EntityFramework.dll
+C:\DEV\Experiment\Hadith\Hadith.Crawler\bin\Debug\EntityFramework.xml

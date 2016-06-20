@@ -1,0 +1,14 @@
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\Hadith.Parser.exe.config
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\Hadith.Parser.exe
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\Hadith.Parser.pdb
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\HtmlAgilityPack.dll
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\HtmlAgilityPack.pdb
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\HtmlAgilityPack.xml
+C:\DEV\Experiment\Hadith\Hadith.Parser\obj\Debug\Hadith.Parser.csprojResolveAssemblyReference.cache
+C:\DEV\Experiment\Hadith\Hadith.Parser\obj\Debug\Hadith.Parser.exe
+C:\DEV\Experiment\Hadith\Hadith.Parser\obj\Debug\Hadith.Parser.pdb
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\EntityFramework.dll
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\EntityFramework.xml
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\WatiN.Core.dll
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\WatiN.Core.xml
+C:\DEV\Experiment\Hadith\Hadith.Parser\bin\Debug\Interop.SHDocVw.dll

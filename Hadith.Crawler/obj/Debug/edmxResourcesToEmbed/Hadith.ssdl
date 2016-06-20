@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HadithDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="HadithDBModelStoreContainer">
+    <EntitySet Name="Crawled" EntityType="HadithDBModel.Store.Crawled" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Hadith" EntityType="HadithDBModel.Store.Hadith" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Crawled">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Url" Type="varchar(max)" />
+    <Property Name="Description" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Hadith">
+    <Key>
+      <PropertyRef Name="HadithID" />
+    </Key>
+    <Property Name="HadithID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" MaxLength="350" />
+    <Property Name="About" Type="varchar(max)" />
+  </EntityType>
+</Schema>

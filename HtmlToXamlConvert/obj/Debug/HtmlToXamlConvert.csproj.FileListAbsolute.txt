@@ -1,0 +1,42 @@
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\App.g.cs
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert_MarkupCompile.cache
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert_MarkupCompile.lref
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\bin\Debug\HtmlToXamlConvert.exe
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\bin\Debug\HtmlToXamlConvert.pdb
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.g.resources
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.Properties.Resources.resources
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.csproj.GenerateResource.Cache
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.exe
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.pdb
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlView.g.cs
+C:\Users\jgable\Documents\Visual Studio 2008\Projects\HtmlToXamlConvert\HtmlToXamlConvert\obj\Debug\HtmlToXamlView.baml
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.exe
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.pdb
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\bin\Debug\HtmlToXamlConvert.exe
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\bin\Debug\HtmlToXamlConvert.pdb
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.csprojResolveAssemblyReference.cache
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlView.g.cs
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\App.g.cs
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert_MarkupCompile.cache
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert_MarkupCompile.lref
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlView.baml
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.g.resources
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.Properties.Resources.resources
+C:\DEV\Experiment\Quran\HtmlToXamlConvert-SampleApp\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.csproj.GenerateResource.Cache
+D:\Quran\SRC\QFE\HtmlToXamlConvert\bin\Debug\HtmlToXamlConvert.exe
+D:\Quran\SRC\QFE\HtmlToXamlConvert\bin\Debug\HtmlToXamlConvert.pdb
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.csprojResolveAssemblyReference.cache
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlView.g.cs
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\App.g.cs
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert_MarkupCompile.cache
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert_MarkupCompile.lref
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlView.baml
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.g.resources
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.Properties.Resources.resources
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.csproj.GenerateResource.Cache
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.exe
+D:\Quran\SRC\QFE\HtmlToXamlConvert\obj\Debug\HtmlToXamlConvert.pdb

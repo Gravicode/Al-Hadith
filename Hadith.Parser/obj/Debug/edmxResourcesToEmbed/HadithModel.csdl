@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HadithDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HadithDBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Crawleds" EntityType="HadithDBModel.Crawled" />
+    <EntitySet Name="Hadiths" EntityType="HadithDBModel.Hadith" />
+    <EntitySet Name="HadithChapters" EntityType="HadithDBModel.HadithChapter" />
+    <EntitySet Name="HadithContents" EntityType="HadithDBModel.HadithContent" />
+    <EntitySet Name="HadithIndexes" EntityType="HadithDBModel.HadithIndex" />
+    <EntitySet Name="HadithPages" EntityType="HadithDBModel.HadithPage" />
+  </EntityContainer>
+  <EntityType Name="Crawled">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Url" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Description" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Hadith">
+    <Key>
+      <PropertyRef Name="HadithID" />
+    </Key>
+    <Property Type="Int32" Name="HadithID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="350" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Title" MaxLength="350" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="About" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Arabic" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="HadithChapter">
+    <Key>
+      <PropertyRef Name="ChapterID" />
+    </Key>
+    <Property Type="Int32" Name="ChapterID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ChapterNo" />
+    <Property Type="String" Name="Title" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TitleArabic" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Intro" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="PageNo" />
+    <Property Type="Int32" Name="HadithID" />
+    <Property Type="String" Name="ChapterNoStr" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="HadithContent">
+    <Key>
+      <PropertyRef Name="ContentID" />
+    </Key>
+    <Property Type="Int32" Name="ContentID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="HadithID" />
+    <Property Type="Int32" Name="ChapterNo" />
+    <Property Type="Int32" Name="PageNo" />
+    <Property Type="String" Name="Narated" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContentEnglish" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContentUrdu" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ContentIndonesia" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContentArabic" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Grade" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Reference" MaxLength="350" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SanadTop" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="SanadBottom" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="HadithOrder" />
+    <Property Type="String" Name="BookRef" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="USCRef" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OtherRef" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UrlRef" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="HadithIndex">
+    <Key>
+      <PropertyRef Name="IndexID" />
+    </Key>
+    <Property Type="Int32" Name="IndexID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="HadithID" />
+    <Property Type="Int32" Name="No" />
+    <Property Type="String" Name="Name" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ArabicName" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="IndexFrom" />
+    <Property Type="Int32" Name="IndexTo" />
+  </EntityType>
+  <EntityType Name="HadithPage">
+    <Key>
+      <PropertyRef Name="PageID" />
+    </Key>
+    <Property Type="Int32" Name="PageID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Title" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TitleArabic" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="PageNo" />
+    <Property Type="Int32" Name="HadithID" />
+  </EntityType>
+</Schema>

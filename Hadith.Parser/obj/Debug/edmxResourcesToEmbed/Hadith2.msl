@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HadithDB2ModelStoreContainer" CdmEntityContainer="HadithDB2Entities">
+    <EntitySetMapping Name="Crawleds">
+      <EntityTypeMapping TypeName="HadithDB2Model.Crawled">
+        <MappingFragment StoreEntitySet="Crawled">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hadiths">
+      <EntityTypeMapping TypeName="HadithDB2Model.Hadith">
+        <MappingFragment StoreEntitySet="Hadith">
+          <ScalarProperty Name="HadithID" ColumnName="HadithID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="About" ColumnName="About" />
+          <ScalarProperty Name="Arabic" ColumnName="Arabic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HadithChapters">
+      <EntityTypeMapping TypeName="HadithDB2Model.HadithChapter">
+        <MappingFragment StoreEntitySet="HadithChapter">
+          <ScalarProperty Name="ChapterID" ColumnName="ChapterID" />
+          <ScalarProperty Name="ChapterNo" ColumnName="ChapterNo" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="TitleArabic" ColumnName="TitleArabic" />
+          <ScalarProperty Name="Intro" ColumnName="Intro" />
+          <ScalarProperty Name="PageNo" ColumnName="PageNo" />
+          <ScalarProperty Name="HadithID" ColumnName="HadithID" />
+          <ScalarProperty Name="ChapterNoStr" ColumnName="ChapterNoStr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HadithContents">
+      <EntityTypeMapping TypeName="HadithDB2Model.HadithContent">
+        <MappingFragment StoreEntitySet="HadithContent">
+          <ScalarProperty Name="ContentID" ColumnName="ContentID" />
+          <ScalarProperty Name="HadithID" ColumnName="HadithID" />
+          <ScalarProperty Name="ChapterNo" ColumnName="ChapterNo" />
+          <ScalarProperty Name="PageNo" ColumnName="PageNo" />
+          <ScalarProperty Name="Narated" ColumnName="Narated" />
+          <ScalarProperty Name="ContentEnglish" ColumnName="ContentEnglish" />
+          <ScalarProperty Name="ContentUrdu" ColumnName="ContentUrdu" />
+          <ScalarProperty Name="ContentIndonesia" ColumnName="ContentIndonesia" />
+          <ScalarProperty Name="ContentArabic" ColumnName="ContentArabic" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+          <ScalarProperty Name="SanadTop" ColumnName="SanadTop" />
+          <ScalarProperty Name="SanadBottom" ColumnName="SanadBottom" />
+          <ScalarProperty Name="HadithOrder" ColumnName="HadithOrder" />
+          <ScalarProperty Name="BookRef" ColumnName="BookRef" />
+          <ScalarProperty Name="USCRef" ColumnName="USCRef" />
+          <ScalarProperty Name="OtherRef" ColumnName="OtherRef" />
+          <ScalarProperty Name="UrlRef" ColumnName="UrlRef" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HadithIndexes">
+      <EntityTypeMapping TypeName="HadithDB2Model.HadithIndex">
+        <MappingFragment StoreEntitySet="HadithIndex">
+          <ScalarProperty Name="IndexID" ColumnName="IndexID" />
+          <ScalarProperty Name="HadithID" ColumnName="HadithID" />
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ArabicName" ColumnName="ArabicName" />
+          <ScalarProperty Name="IndexFrom" ColumnName="IndexFrom" />
+          <ScalarProperty Name="IndexTo" ColumnName="IndexTo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HadithPages">
+      <EntityTypeMapping TypeName="HadithDB2Model.HadithPage">
+        <MappingFragment StoreEntitySet="HadithPage">
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="TitleArabic" ColumnName="TitleArabic" />
+          <ScalarProperty Name="PageNo" ColumnName="PageNo" />
+          <ScalarProperty Name="HadithID" ColumnName="HadithID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
